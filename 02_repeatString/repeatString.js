@@ -1,5 +1,5 @@
 const repeatString = function(string, num) {
-    repeatedString = [];
+    let repeatedString = [];
     if (num < 0) {
         return 'ERROR';
     }
@@ -7,7 +7,7 @@ const repeatString = function(string, num) {
     for (let i = 0; i < num; i++) {
         repeatedString.push(string);
     }
-    
+
     return repeatedString.join("");
 };
 
